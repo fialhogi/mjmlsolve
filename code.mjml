@@ -1,0 +1,54 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @media (max-width:320px) {
+        .header-txt {
+          padding: 0 50px !important;
+        }
+
+        .header-txt div {
+          font-size: 3px !important;
+        }
+      }
+
+      @media (max-width:250px) {
+        .header-txt {
+          padding: 0 50px !important;
+        }
+
+        .header-txt div {
+          font-size: 35px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#fff">
+    <mj-section background-color="#0F0927" padding="0">
+      <mj-column>
+        <mj-text css-class="header-txt" color="#fff" font-size="38px" padding="50px" font-weight="bold" font-family="saintecolombe-regular, Times New Roman, Times, serif">Test <span style="font-family:Helvetica, Arial, sans-serif;">Template</span></mj-text>
+        <mj-image width="600px" src="./header-top.jpg" alt="" padding="0 30px" href="" />
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image width="600px" src="./header-bottom.jpg" alt="" padding="0 30px" href="" />
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-image width="200px" src="./photo-one.jpg" alt="" padding="0 10px 10px" href="" />
+        </mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-image width="200px" src="./photo-two.jpg" alt="" padding="0 10px 10px" href="" />
+        </mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-image width="200px" src="./photo-three.jpg" alt="" padding="0 10px 10px" href="" />
+        </mj-image>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
